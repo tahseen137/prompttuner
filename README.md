@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PromptTuner 🚀
 
-## Getting Started
+An AI-powered prompt optimization tool that helps developers improve their LLM prompts for better output quality, reduced hallucinations, and token savings.
 
-First, run the development server:
+## 🎯 Features
+
+- **Smart Optimization**: Analyzes and rewrites prompts for clarity, specificity, and efficiency
+- **Side-by-Side Comparison**: View original vs optimized prompts
+- **Improvement Insights**: Get detailed notes on what was improved
+- **Token Savings**: Estimates percentage of token reduction
+- **Dark Mode**: Beautiful glass morphism design with purple/blue gradients
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 14 (App Router)
+- **Styling**: Tailwind CSS
+- **Deployment**: Vercel
+- **Language**: TypeScript
+
+## 🚀 Live Demo
+
+**Production URL**: [https://prompttuner.vercel.app](https://prompttuner.vercel.app)
+
+## 📦 Pages
+
+1. **Landing Page** (`/`) - Hero, features, pricing preview
+2. **Optimizer** (`/optimize`) - Main tool for prompt optimization
+3. **Pricing** (`/pricing`) - Detailed pricing tiers and FAQ
+
+## 💰 Pricing
+
+- **Free**: 10 optimizations/month
+- **Pro**: $29/mo - 500 optimizations/month
+- **Team**: $99/mo - Unlimited optimizations
+
+## 🧠 How It Works
+
+1. **Paste Your Prompt**: Copy your existing LLM prompt
+2. **AI Analysis**: Engine analyzes for clarity, specificity, and efficiency
+3. **Get Optimized**: Receive improved prompt with detailed notes
+
+The optimizer focuses on:
+- Adding clear role definitions
+- Specifying output formats
+- Adding constraints to reduce hallucinations
+- Making instructions more specific
+- Removing redundancy
+
+## 🏃 Running Locally
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📝 MVP Notes
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This is a hackathon MVP. The optimization engine uses a smart template-based approach (no external API calls required). The algorithm:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Adds role/context if missing
+- Specifies output formats
+- Adds hallucination-reduction constraints
+- Makes instructions more specific
+- Removes redundancy
 
-## Learn More
+## 🎨 Design
 
-To learn more about Next.js, take a look at the following resources:
+- Clean, modern dark mode interface
+- Glass morphism cards
+- Purple/blue gradient accents
+- Responsive design
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📄 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+MIT
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with ⚡ by [Tahseen](https://github.com/tahseen137)
