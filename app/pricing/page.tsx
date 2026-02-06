@@ -178,7 +178,7 @@ export default function PricingPage() {
             <div className="glass p-6 rounded-xl">
               <h3 className="text-lg font-semibold mb-2">Do you store my prompts?</h3>
               <p className="text-gray-400">
-                No. All optimization happens in real-time and we don't store your prompts or 
+                No. All optimization happens in real-time and we don&apos;t store your prompts or 
                 results. Your intellectual property stays yours.
               </p>
             </div>

@@ -21,7 +21,7 @@ export async function POST(request: Request) {
       improvements,
       tokenSavings,
     });
-  } catch (error) {
+  } catch {
     return NextResponse.json(
       { error: "Optimization failed" },
       { status: 500 }
